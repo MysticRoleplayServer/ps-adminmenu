@@ -117,7 +117,7 @@ local function UpdateBlipsAndNames(players)
 
                     SetBlipRotation(Blip, math.ceil(GetEntityHeading(veh)))
                     SetBlipNameToPlayerName(Blip, playerId)
-                    SetBlipScale(Blip, 0.85)
+                    SetBlipScale(Blip, 0.7)
 
                     local distance = math.floor(Vdist(playerCoords.x, playerCoords.y, playerCoords.z,
                                 GetEntityCoords(ped, true).x, GetEntityCoords(ped, true).y, GetEntityCoords(ped, true).z) /
